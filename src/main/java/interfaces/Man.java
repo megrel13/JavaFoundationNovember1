@@ -44,22 +44,17 @@ public class Man implements Cookable, Cleanable, Cloneable, Comparable<Man> {
     @Override
     public void clean() {
         System.out.println("Everything is clean!");
-
     }
 
 
     @Override
     public int compareTo(Man o) {
-        //      return this.getName().compareTo(o.getName());
-
+              return this.getName().compareTo(o.getName());
         //    return this.getAge() - o.getAge();
-
-        int res = this.getAge() - o.getAge();
-        if (res < 0) return -1;
-        if (res > 0) return 1;
-        return 0;
-
-
+     //   int res = this.getAge() - o.getAge();
+     //   if (res < 0) return -1;
+     //   if (res > 0) return 1;
+     //   return 0;
     }
 }
 

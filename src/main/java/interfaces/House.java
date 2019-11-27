@@ -56,3 +56,5 @@ public class House {
         System.out.println(Arrays.toString(arrayRealWomen));
     }
 }
+
+

@@ -4,13 +4,13 @@ public class Dog extends Animal {
     private String dogColor = "goldenWhite";
     private String breedOfDog = "goldenRetriever";
 
-    public Dog() {}
+    public Dog() {
+    }
 
     public Dog(int countOfLegs, String dogColor, String breedOfDog) {
         this.dogColor = dogColor;
         this.breedOfDog = breedOfDog;
     }
-
 
 
     public String getDogColor() {

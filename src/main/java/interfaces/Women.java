@@ -2,7 +2,6 @@ package interfaces;
 
 
 public class Women implements Cookable, Washable, Cloneable, Comparable<Women> {
-
     private String name;
     private int age;
 

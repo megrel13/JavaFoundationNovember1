@@ -13,8 +13,6 @@ public class Cat extends Animal{
         System.out.println("I'm Cat. Meeeeooooooowwwwww!");
     }
 
-
-
     public String getColorEyes() {
         return colorEyes;
     }
