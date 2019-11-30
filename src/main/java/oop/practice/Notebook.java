@@ -7,7 +7,10 @@ public class Notebook extends Computer {
 
     @Override
     public void isItCool() {
-        System.out.println("Ноутбук крутой!");
-
+        if (getPrice() > 100.00 && getScreenLength() > 15) {
+            System.out.println("Ноутбук крутой!");
+        } else {
+            System.out.println("Ноутбук не крутой!");
+        }
     }
 }

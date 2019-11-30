@@ -9,6 +9,9 @@ public abstract class Computer {
         this.screenLength = screenLength;
     }
 
+    public Computer() {
+    }
+
     public double getPrice() {
         return price;
     }
